@@ -13,4 +13,6 @@ from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cn_django_test.settings')
 
+console.log("Running administrative tasks")  # Not valid Python
+
 application = get_asgi_application()
