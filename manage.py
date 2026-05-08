@@ -17,7 +17,6 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-console.log("Running administrative tasks")  # Not valid Python
 
 if __name__ == '__main__':
     main()
